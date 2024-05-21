@@ -1,0 +1,121 @@
+*{
+margin:0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+body{
+    background-color: azure;
+}
+img{
+    position: relative;
+    height:100%;
+    width:50%;
+    left:50%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    
+}
+.text{
+    position: absolute;
+    top: 3%;
+    right:0%;
+
+}
+.text>a{
+    text-decoration: none;
+    color:bisque;
+    font-family: helvetica;
+   
+ padding: 70px;
+
+}
+.box1{
+    height:80%;
+    width:70%;
+ position: absolute;
+    background-color: rgba(206, 213, 225, 0.504);
+    top:20%;
+}
+.box1>h1{
+    position: absolute;
+    left:30%;
+    top:8%;
+    color: rgba(0, 0, 0, 0.867);
+}
+.box1>p{
+    position: absolute;
+    left:28%;
+    top:15%;
+    color: rgba(0, 0, 0, 0.472);
+    
+}
+.box1>h6{
+    position:absolute;
+    left:28%;
+    top:25%;
+    color: rgba(0, 0, 0, 0.472);
+    
+}
+button{
+    position: absolute;
+    left:30%;
+    top:35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color:rgba(0, 0, 0, 0);
+padding: 15px;
+    
+}
+button:hover{
+    background-color: black;
+    color: bisque;
+}
+H2{
+    position: absolute;
+    top:55%;
+    left:35%;
+}
+.twowatch{
+    position: absolute;
+    height: 40%;
+ width: 30%;
+    top:20%;
+left:-15%;
+}
+.borderwatch{
+    position: absolute;
+    height: 25%;
+    width: 20%;
+    bottom: 10%;
+left: 10%;
+}
+.borderwatch>h5{
+    position: absolute;
+    left:70%;
+}
+.last{
+    position: absolute;
+    height: 25%;
+    width: 20%;
+    bottom: 10%;
+left: 25%;
+}
+.last>h5{
+    position: absolute;
+    left:70%;
+}
+.lastt{
+    position: absolute;
+    height: 25%;
+    width: 18%;
+    bottom: 10%;
+left: 40%;
+}
+.lastt>h5{
+    position: absolute;
+    left:70%;
+}
